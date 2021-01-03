@@ -40,7 +40,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  opacity: 0;
 }
 
 .intro h1 {
@@ -85,7 +84,8 @@ section {
 }
 
 div.fadeOut {
-  transform: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 div.fadeIn {
